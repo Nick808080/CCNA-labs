@@ -4,7 +4,7 @@
 
 ## Топология
 
-![Топология сети](images/скрин 1.png)
+![Топология сети](images/скрин%201.png)
 
 * **Сеть:** `192.168.1.0/24`
 * **Устройства:** 2 коммутатора (`SW1`, `SW2` — Cisco 2960), 4 ПК:
@@ -45,7 +45,7 @@
 
 ## 2. Проверка в Simulation Mode
 
-![Симуляция ARP и ICMP](images/скрин 6.png)
+![Симуляция ARP и ICMP](images/скрин%206.png)
 
 Симуляция в Packet Tracer полностью подтвердила описанный порядок:
 * `0.001s` — `ARP Request` от `PC1` приходит на `SW1`.
@@ -68,7 +68,7 @@ Vlan    Mac Address       Type        Ports
    1    00d0.d3ad.9cab    DYNAMIC     Fa0/1
 ```
 
-![Таблица MAC-адресов SW1](images/скрин 8.png)
+![Таблица MAC-адресов SW1](images/скрин%208.png)
 
 ### Таблица MAC-адресов на `SW2`
 
@@ -83,7 +83,7 @@ Vlan    Mac Address       Type        Ports
    1    00d0.d3ad.9cab    DYNAMIC     Gig0/1
 ```
 
-![Таблица MAC-адресов SW2](images/скрин 7.png)
+![Таблица MAC-адресов SW2](images/скрин%207.png)
 
 ### Определённые MAC-адреса устройств
 
@@ -108,5 +108,5 @@ Vlan    Mac Address       Type        Ports
 SW2#
 ```
 
-![Очистка таблицы MAC-адресов SW2](images/скрин 9.png)
-![Очистка таблицы MAC-адресов SW1](images/скрин 10.png)
+![Очистка таблицы MAC-адресов SW2](images/скрин%209.png)
+![Очистка таблицы MAC-адресов SW1](images/скрин%2010.png)
